@@ -1,0 +1,28 @@
+body{
+    background: black;
+    color: white;
+}
+
+#all_op{
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+a{
+    color: white;
+}
+
+img{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+
+@media screen and (max-width: 650px)
+{
+    img{
+        opacity: 0;
+    }
+}
